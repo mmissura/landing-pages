@@ -4,17 +4,17 @@ export const App = () => {
   return (
     <div className="w-full overflow-x-hidden bg-map">
       <div className="bg-black">
-        <h1 className="text-4xl text-center font-bold 2xl:text-8xl xl:text-8xl lg:text-6xl mt-10 text-green-300">
-          Landing Pages
+        <h1 className="text-4xl text-center font-bold 2xl:text-6xl xl:text-6xl lg:text-6xl mt-10 text-gray-500">
+        Landing pages personalizadas para seu negócio!
         </h1>
-        <h2 className="text-xl text-center 2xl:text-5xl xl:text-4xl lg:text-3xl 2xl:mt-8 xl:mt-8 lg:mt-8 mt-6 text-white">
+        {/* <h2 className="text-xl text-center 2xl:text-5xl xl:text-4xl lg:text-3xl 2xl:mt-8 xl:mt-8 lg:mt-8 mt-6 text-white">
           Landing pages personalizadas para seu negócio!
-        </h2>
+        </h2> */}
         
         <div className="grid grid-rows-12 gap-7 2xl:my-20 xl:my-20 lg:my-20 my-12">
           
           <h2 className='text-xl text-center 2xl:text-2xl xl:text-4xl lg:text-2xl mb-8
-           text-green-300 px-12 underline'>O que é uma Landing Page?</h2>
+           text-gray-500 px-12 underline'>O que é uma Landing Page?</h2>
            
           <p className='text-xl text-center 2xl:text-2xl xl:text-2xl lg:text-2xl mb-8 text-white px-12'>
             Uma landing page tem como principal objetivo a conversão de leads, ou seja,
@@ -26,9 +26,10 @@ export const App = () => {
           <div className='flex flex-row justify-center items-center flex-wrap gap-3 gap-x-6'>
             <div>
               <h2 className='text-xl text-center 2xl:text-2xl xl:text-4xl lg:text-2xl 
-            mb-8 text-white px-12 underline'>Principais vantagens de uma Landing Page</h2>
+            mb-8 text-gray-500 px-12 underline'>Principais vantagens de uma Landing Page</h2>
             </div>
-            <div className='grid grid-cols-2 gap-5 row-span-5 flex-crow w-full justify-center items-center m-5 border-4 border-gray-400 p-6'>
+            
+            <div className='text-xl text-center 2xl:text-2xl xl:text-4xl lg:text-2xl grid grid-cols-2 w-full justify-center items-center m-5 border-4 border-gray-400 p-6'>
 
               <h2 className='text-xl text-center 2xl:text-2xl xl:text-3xl lg:text-2xl 
             mb-8 text-green-300 px-12 underline'>Gerar Leads</h2>
@@ -70,7 +71,7 @@ export const App = () => {
                 Uma das estratégias nesse sentido é educar clientes que não sabem como usar o produto,<br></br>
                 por exemplo.</p>
             </div>
-            <h2 className="text-2xl text-center 2xl:text-4xl xl:text-4xl lg:text-2xl mt-8 mb-8 text-green-300 px-12">
+            <h2 className="text-2xl text-center 2xl:text-4xl xl:text-4xl lg:text-2xl mt-8 mb-8 text-gray-500 px-12">
               Procurando uma Landing Page personalizada para seu negócio? Entre em contato agora mesmo
             </h2>
           </div>
