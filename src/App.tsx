@@ -4,19 +4,16 @@ export const App = () => {
   return (
     <div className="w-full overflow-x-hidden bg-map">
       <div className="bg-black">
-        <h1 className="text-4xl text-center font-bold 2xl:text-6xl xl:text-6xl lg:text-6xl mt-10 text-gray-500">
+        <h1 className="text-4xl text-center font-bold 2xl:text-6xl xl:text-6xl lg:text-6xl mt-10 text-gray-500 p-4">
         Landing pages personalizadas para seu negócio!
         </h1>
-        {/* <h2 className="text-xl text-center 2xl:text-5xl xl:text-4xl lg:text-3xl 2xl:mt-8 xl:mt-8 lg:mt-8 mt-6 text-white">
-          Landing pages personalizadas para seu negócio!
-        </h2> */}
         
         <div className="grid grid-rows-12 gap-7 2xl:my-20 xl:my-20 lg:my-20 my-12">
           
           <h2 className='text-xl text-center 2xl:text-2xl xl:text-4xl lg:text-2xl mb-8
            text-gray-500 px-12 underline p-6'>O que é uma Landing Page?</h2>
            
-          <p className='text-xl text-center 2xl:text-2xl xl:text-2xl lg:text-2xl grid mb-8 text-white px-12'>
+          <p className='text-xl text-center 2xl:text-2xl xl:text-2xl lg:text-2xl grid mb-8 text-white px-12 p-4'>
             Uma landing page tem como principal objetivo a conversão de leads, ou seja,
             fazer com que o visitante se torne um cliente, passando para a próxima etapa do funil de
             vendas
@@ -32,7 +29,7 @@ export const App = () => {
             <div className='text-xl text-center 2xl:text-2xl xl:text-4xl lg:text-2xl 2xl:grid grid-cols-2 w-full 
             justify-center items-center m-5 border-4 border-gray-400 p-6'>
 
-              <h2 className='text-xl text-center 2xl:text-2xl xl:text-3xl lg:text-2xl 
+              <h2 className='text-xl text-center 2xl:text-2xl xl:text-2xl lg:text-2xl 
             mb-8 text-green-300 px-12 underline'>Gerar Leads</h2>
 
 
