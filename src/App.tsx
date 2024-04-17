@@ -1,12 +1,16 @@
 import { BsWhatsapp } from 'react-icons/bs';
 import { FaChartLine } from 'react-icons/fa';
 import { IoIosPeople } from 'react-icons/io';
+import { TbRefresh } from "react-icons/tb";
+import { GiChampions } from "react-icons/gi";
+import { IoInformationCircle } from "react-icons/io5";
 
 export const App = () => {
   return (
     <div className="w-full overflow-x-hidden bg-map">
       <div className="bg-black">
-        <h1 className="text-4xl text-center font-bold 2xl:text-6xl xl:text-6xl lg:text-6xl mt-10 text-green-400 p-4 2xl:w-2/3 xl:w-2/3 lg:w-2/3 w-4/5">
+        <h1 className="text-4xl text-center font-bold 2xl:text-6xl xl:text-6xl lg:text-6xl mt-10
+         text-green-300 p-4 2xl:w-2/3 xl:w-2/3 lg:w-2/3 w-4/5">
           Landing pages personalizadas para seu negócio!
         </h1>
 
@@ -76,9 +80,10 @@ export const App = () => {
 
               <h2
                 className="text-xl text-center 2xl:text-2xl xl:text-3xl lg:text-2xl 
-              mb-8 text-green-300 px-12"
+              mb-8 text-green-300 px-12 flex justify-center items-center gap-4"
               >
                 Melhorar a conversão
+                <TbRefresh size={62}/>
               </h2>
 
               <p className="text-xl text-center 2xl:text-2xl xl:text-2xl lg:text-2xl mb-8 text-white  border-4 p-4">
@@ -92,9 +97,10 @@ export const App = () => {
               </p>
               <h2
                 className="text-xl text-center 2xl:text-2xl xl:text-3xl lg:text-2xl 
-              mb-8 text-green-300 px-12"
+              mb-8 text-green-300 px-12 flex justify-center items-center gap-4"
               >
                 Medir o sucesso
+                <GiChampions size={62}/>
               </h2>
 
               <p className="text-xl text-center 2xl:text-2xl xl:text-2xl lg:text-2xl mb-8 text-white border-4 p-4">
@@ -107,9 +113,10 @@ export const App = () => {
 
               <h2
                 className="text-xl text-center 2xl:text-2xl xl:text-3xl lg:text-2xl 
-              mb-8 text-green-300 px-12"
+              mb-8 text-green-300 px-12 flex justify-center items-center gap-4"
               >
                 Fornecer informação
+                <IoInformationCircle size={62}/>
               </h2>
 
               <p className="text-xl text-center 2xl:text-2xl xl:text-2xl lg:text-2xl mb-1 text-white px-12 border-4 p-4">
