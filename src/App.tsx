@@ -18,7 +18,7 @@ export const App = () => {
           <div className="mx-auto 2xl:mb-20 xl:mb-20 lg:mb-20 mb-12 w-2/3">
             <h2
               className="text-xl text-center font-bold 2xl:text-3xl xl:text-3xl lg:text-2xl
-           text-white mb-4 bg-orange-500 px-2 py-4  uppercase"
+           text-white mb-4 bg-orange-500 px-2 py-4 uppercase"
             >
               O que é uma Landing Page?
             </h2>
@@ -35,8 +35,8 @@ export const App = () => {
           <div className="w-full p-6">
             <div>
               <h2
-                className="text-xl text-center font-bold 2xl:text-2xl xl:text-4xl lg:text-2xl 
-            mb-8 text-orange-500 uppercase w-4/5 m-auto"
+                className="text-xl text-center font-bold 2xl:text-3xl xl:text-3xl lg:text-2xl 
+            mb-8 text-white bg-orange-500 px-2 py-4 w-4/5 m-auto uppercase"
               >
                 Principais vantagens de uma Landing Page
               </h2>
@@ -48,12 +48,13 @@ export const App = () => {
             >
               <h2
                 className="text-lg text-center 2xl:text-2xl xl:text-3xl lg:text-2xl 
-            mb-8 text-green-300 px-12 flex justify-center items-center gap-4 uppercase"
+             text-green-300 px-12 flex justify-center items-center gap-4 uppercase"
               >
-                Gerar Leads <IoIosPeople size={62} />
+                <IoIosPeople size={62} />
+                Gerar Leads
               </h2>
 
-              <p className="text-xl text-center 2xl:text-2xl xl:text-2xl lg:text-2xl mb-8 text-white border-4 p-4">
+              <p className="text-xl text-center 2xl:text-2xl xl:text-2xl lg:text-2xl mb-16 text-white p-4">
                 Uma landing page pode ser usada para coletar informações de
                 contato de possíveis clientes<br></br>
                 (prospects), como nome, endereço de e-mail e número de telefone.
@@ -65,13 +66,14 @@ export const App = () => {
 
               <h2
                 className="text-xl text-center 2xl:text-2xl xl:text-3xl lg:text-2xl 
-              mb-8 text-green-300 px-12 flex justify-center items-center gap-4"
+               text-green-300 px-12 flex justify-center items-center gap-4"
               >
-                Impulsionar as vendas
                 <FaChartLine size={62} />
+                Impulsionar as vendas
+
               </h2>
 
-              <p className="text-xl text-center 2xl:text-2xl xl:text-2xl lg:text-2xl mb-8 text-white border-4 p-4">
+              <p className="text-xl text-center 2xl:text-2xl xl:text-2xl lg:text-2xl mb-16 text-white p-4">
                 Se a empresa estiver vendendo um produto ou serviço,<br></br>
                 uma landing page pode servir para promover e oferecer aos
                 visitantes uma opção de compra.<br></br>É uma forma de engajar e
@@ -80,13 +82,14 @@ export const App = () => {
 
               <h2
                 className="text-xl text-center 2xl:text-2xl xl:text-3xl lg:text-2xl 
-              mb-8 text-green-300 px-12 flex justify-center items-center gap-4"
+               text-green-300 px-12 flex justify-center items-center gap-4"
               >
+                <TbRefresh size={62} />
                 Melhorar a conversão
-                <TbRefresh size={62}/>
+
               </h2>
 
-              <p className="text-xl text-center 2xl:text-2xl xl:text-2xl lg:text-2xl mb-8 text-white  border-4 p-4">
+              <p className="text-xl text-center 2xl:text-2xl xl:text-2xl lg:text-2xl mb-16 text-white p-4">
                 Uma landing page bem projetada pode aumentar a taxa de conversão
                 de visitantes<br></br>
                 em clientes ou leads. Dessa forma, a empresa maximiza o retorno
@@ -97,13 +100,14 @@ export const App = () => {
               </p>
               <h2
                 className="text-xl text-center 2xl:text-2xl xl:text-3xl lg:text-2xl 
-              mb-8 text-green-300 px-12 flex justify-center items-center gap-4"
+               text-green-300 px-12 flex justify-center items-center gap-4"
               >
+                <GiChampions size={62} />
                 Medir o sucesso
-                <GiChampions size={62}/>
+
               </h2>
 
-              <p className="text-xl text-center 2xl:text-2xl xl:text-2xl lg:text-2xl mb-8 text-white border-4 p-4">
+              <p className="text-xl text-center 2xl:text-2xl xl:text-2xl lg:text-2xl mb-16 text-white p-4">
                 As métricas de uma landing page, como número de visitas,
                 <br></br>
                 taxa de conversão e valor médio por lead, podem ajudar a medir o
@@ -113,13 +117,14 @@ export const App = () => {
 
               <h2
                 className="text-xl text-center 2xl:text-2xl xl:text-3xl lg:text-2xl 
-              mb-8 text-green-300 px-12 flex justify-center items-center gap-4"
+               text-green-300 px-12 flex justify-center items-center gap-4"
               >
+                <IoInformationCircle size={62} />
                 Fornecer informação
-                <IoInformationCircle size={62}/>
+
               </h2>
 
-              <p className="text-xl text-center 2xl:text-2xl xl:text-2xl lg:text-2xl mb-1 text-white px-12 border-4 p-4">
+              <p className="text-xl text-center 2xl:text-2xl xl:text-2xl lg:text-2xl mb-1 text-white px-12 p-4">
                 Uma landing page também pode ser usada para fornecer informações
                 sobre um<br></br>
                 produto ou serviço. Isso ajuda a aumentar o interesse e a
@@ -129,7 +134,9 @@ export const App = () => {
                 por exemplo.
               </p>
             </div>
-            <h2 className="text-2xl text-center 2xl:text-4xl xl:text-4xl lg:text-2xl mt-20 mb-8 text-orange-500 px-12 2xl:w-2/3 xl:w-2/3 lg:w-2/3 w-4/5 m-auto">
+            <h2 className="text-xl text-center font-bold 2xl:text-3xl xl:text-3xl lg:text-2xl 
+            mb-8 text-white bg-orange-500 mt-20
+            uppercase px-12 2xl:w-2/3 xl:w-2/3 lg:w-2/3 w-4/5 m-auto">
               Procurando uma Landing Page personalizada para seu negócio? Entre
               em contato agora mesmo
             </h2>
