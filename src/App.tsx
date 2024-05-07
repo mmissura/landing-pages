@@ -33,28 +33,7 @@ export const App = () => {
           </p>
         </div>
 
-        <div className=" opacity-90 bg-white to-blue-500 w-full mb-28  py-20 px-12 shadow-lg">
-          <div className="mx-auto 2xl:w-2/3 xl:w-2/3 lg:w-2/3 w-full 2xl:flex xl:flex lg:flex justify-center items-center gap-4 ">
-            <img
-              src="https://www.webytes.com.br/imagens/telaimob.png"
-              alt="image"
-              className="w-1/2 m-auto mb-2"
-            />
-            <div>
-              <h2
-                className="text-2xl text-center font-extrabold 2xl:text-3xl xl:text-3xl lg:text-2xl
-           text-cyan-500 mb-4 uppercase"
-              >
-                LANDING PAGES RESPONSIVAS
-              </h2>
-              <p className="text-xl text-center 2xl:text-2xl xl:text-2xl lg:text-2xl text-cyan-500 font-light">
-                Uma landing page tem como principal objetivo a conversão de
-                leads, ou seja, fazer com que o visitante se torne um cliente,
-                passando para a próxima etapa do funil de vendas.
-              </p>
-            </div>
-          </div>
-        </div>
+      
         {/* FINAL DO MECHANIZZED */}
 
         {/* <h2
@@ -73,7 +52,7 @@ export const App = () => {
 
         <h2
           className="text-xl text-center font-bold 2xl:text-3xl xl:text-3xl lg:text-2xl
-           text-white mb-4 bg-orange-500 p-2 uppercase"
+           text-white mb-8 bg-orange-500 p-2 uppercase mt-20"
         >
           Principais vantagens de uma Landing Page
         </h2>
@@ -169,14 +148,38 @@ export const App = () => {
           </div>
         </div>
 
+        <div className=" opacity-90 bg-white to-blue-500 w-full mb-2 mt-10  py-20 px-12 shadow-lg">
+          <div className="mx-auto 2xl:w-2/3 xl:w-2/3 lg:w-2/3 w-full 2xl:flex xl:flex lg:flex justify-center items-center gap-4 ">
+            <img
+              src="https://www.webytes.com.br/imagens/telaimob.png"
+              alt="image"
+              className="w-1/2 m-auto mb-2"
+            />
+            <div>
+              <h2
+                className="text-2xl text-center font-extrabold 2xl:text-3xl xl:text-3xl lg:text-2xl
+           text-orange-300 mb-4 uppercase"
+              >
+                LANDING PAGES RESPONSIVAS
+              </h2>
+              <p className="text-xl text-center 2xl:text-2xl xl:text-2xl lg:text-2xl text-cyan-500 font-light">
+                * Melhor experiência do usuário<br></br>
+                * Aumento de visitas<br></br>
+                * Aumento da velocidade de carregamento<br></br>
+                * Acessível para qualquer navegador<br></br>                
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="bg-gradient-to-r opacity-80 from-cyan-500 to-blue-500 w-full mt-28 py-20 px-12 shadow-lg mb-20">
         <h2
-          className="text-xl text-center font-bold 2xl:text-3xl xl:text-3xl lg:text-2xl
-           text-white mb-10 bg-orange-500 p-2 uppercase 2xl:mt-20 xl:mt-20 lg:mt-20 mt-12"
+          className="text-xl text-center 2xl:text-3xl xl:text-3xl lg:text-3xl text-yellow-300 mx-auto 2xl:w-2/3 xl:w-2/3 lg:w-2/3 w-full font-bold uppercase"
         >
           Procurando uma Landing Page <br /> personalizada para seu negócio?{' '}
           <br />
           Entre em contato agora mesmo
         </h2>
+        </div>
 
         <div>
           <a
